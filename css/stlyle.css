@@ -304,7 +304,18 @@ padding: 65px 20px;
     padding: 10px 0;
     font-size: 20px;
 }
-
+/* right part styling*/
+.right_part{
+    background-image: url(../images/home/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 1% 1% 0 0.5%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+}
 /*Fourth Highlight Section */
 .fourth-heghlight-wrapper {
   display: flex;
