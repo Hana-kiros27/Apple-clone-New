@@ -73,6 +73,69 @@ padding: 65px 20px;
   color: #86868d
 }
 
+.first-element{
+  height: 580px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;	
+width: 48.5%;
+margin: 1% 1% 0% 0.5%; 
+padding-top: 54px;
+}
+
+.second-element{
+  height: 580px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+width: 48.5%;
+margin: 1% 0.5% 0% 1%; 
+padding-top: 54px;
+}
+
+.second-row{
+  display: flex;
+  margin-bottom: 10px;
+}
+.second-row .first-element{
+  background-image: url('../images/home/apple-tv-background.jpg');
+}
+.second-row .second-element{
+  background-image: url('../images/home/air-pods.jpg');
+  color: #fff; 
+background-size: initial;
+background-color: #000;
+background-position: bottom;
+}
+.logo2{
+  padding: 180px 0 200px;
+}
+.trailer a{
+  text-decoration: none;
+}
+.third-row{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.third-row .first-element{
+  background-image: url('../images/home/macbook-pro.jpg');
+  background-size: initial;
+background-color: #fafafa;
+background-position: bottom;
+}
+.trailer a::after{
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 10px;
+}
+
+
+
 
 /* Footer Styling */
 .footer-wrapper {
