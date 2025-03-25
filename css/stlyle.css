@@ -50,6 +50,7 @@ body {
   padding-left: 10px;
 }
 
+
 /* section two */
 .second-wrapper {
 background-image: url('../images/home/iphone11-pro-bg.jpg');
@@ -71,6 +72,53 @@ padding: 65px 20px;
 }
 .price-wrapper {
   color: #86868d
+}
+
+/*third highligh styling*/
+.third_highlight{
+    background-image: url(../images/home/iphone11-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	padding: 65px 20px;
+	color:black;
+    height: 570px;
+}
+.title-two{
+    font-weight: 600;
+    font-size: 56px;
+}
+.highlight-description{
+    font-size: 26px;
+	padding: 10px 0;
+}
+.price{
+    color: #86868b; 
+	font-size: 0.85em;
+}
+
+.link ul {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.link ul li{
+    padding-right: 20px;
+    list-style: none;
+}
+.link ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.link ul li a:hover {
+	color: #000;
+}
+.link ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
 }
 
 
@@ -230,6 +278,44 @@ padding: 65px 20px;
   padding: 65px 20px;
 }
 
+/*fourt highligh styling*/
+    /* left part styling*/
+
+.fourth_highlight{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+
+.left_part{
+    background-image: url(../images/home/watch-series-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	margin: 1% 0.5% 0% 1%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+}
+
+.more-description{
+    padding: 10px 0;
+    font-size: 20px;
+}
+/* right part styling*/
+.right_part{
+    background-image: url(../images/home/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 1% 1% 0 0.5%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+}
 /*Fourth Highlight Section */
 .fourth-heghlight-wrapper {
   display: flex;
